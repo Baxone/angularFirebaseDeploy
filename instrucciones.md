@@ -19,5 +19,13 @@
     2 crear los componentes para asignar a las rutas especificas.
 
     
+//Siguiente tarea
+
+    1 - en el servicio de houses crear un metodo que me devuelva todas las casas.
+    2 - consumirlo dentro del componente home y pintar cada casa con una card de bootstrap en dicho componente.
+    3 - crear un boton de ver detalle que link a la vista de detalle de cada casa.
+    4 - las casas que esten disponible tendrá un borde verde y las no disponible un rojo
+
+
 
 
