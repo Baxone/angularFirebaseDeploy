@@ -13,4 +13,8 @@ export class HousesService {
   constructor() {
     this.arrHouses = HOUSES;
   }
+
+  getAll() {
+    return this.arrHouses;
+  }
 }
