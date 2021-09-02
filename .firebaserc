@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "airbandb-f7164": {
+      "hosting": {
+        "deploy": [
+          "airbandb-f7164"
+        ]
+      }
+    }
+  }
+}
