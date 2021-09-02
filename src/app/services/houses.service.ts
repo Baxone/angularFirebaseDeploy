@@ -25,6 +25,18 @@ export class HousesService {
     return this.collection.doc(pId).valueChanges();
   }
 
+  delete(pId: string): Promise<any> {
+    return new Promise((resolve, reject) => {
+      try {
+        this.collection.doc(pId).delete();
+        resolve({ success: 'ok' })
+      } catch (err) {
+        reject(err);
+      }
+    })
+  }
+
+
   create(pHouse: House): Promise<any> {
     return new Promise(async (resolve, reject) => {
       try {
