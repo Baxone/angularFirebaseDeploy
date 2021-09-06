@@ -11,6 +11,9 @@ export const environment = {
     storageBucket: "airbandb-f7164.appspot.com",
     messagingSenderId: "13341562085",
     appId: "1:13341562085:web:4454e834a9a44cce7af00c"
+  },
+  googleMaps: {
+    apiKey: 'AIzaSyCV6JDHpTRE_KsBWJeRiVNm7WjjW_cxo1g'
   }
 };
 

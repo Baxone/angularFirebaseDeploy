@@ -30,9 +30,7 @@ import { AgmCoreModule } from '@agm/core';
     FormsModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
-    AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyB_UcPHDzpyG8Xk3M1UTRc43lebdxrUO_g'
-    })
+    AgmCoreModule.forRoot(environment.googleMaps)
 
   ],
   providers: [],
